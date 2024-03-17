@@ -22,7 +22,7 @@ const Contact = () => {
           </div>
           <h5>ADDRESS</h5>
           <p>402-428 Portage Avenue, Winnipeg, MB R3C 0E2 🇨🇦</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20563.194991144468!2d-97.149072!3d49.891305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea73e2b6773d91%3A0x709b2a5a650d8a7e!2sDr.%20Carmine%20Scarpino%20Dental!5e0!3m2!1sen!2sca!4v1710479951352!5m2!1sen!2sca" width="100%" height="400" loading="lazy"></iframe>
+          <iframe title="Google Map clinic for Dr. Carmine Scarpino Dental" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20563.194991144468!2d-97.149072!3d49.891305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea73e2b6773d91%3A0x709b2a5a650d8a7e!2sDr.%20Carmine%20Scarpino%20Dental!5e0!3m2!1sen!2sca!4v1710479951352!5m2!1sen!2sca" width="100%" height="400" loading="lazy"></iframe>
           <h6>NOTE: Links to independent third-party websites are not endorsed by or affiliated with Dr. Carmine Scarpino Dental.</h6>
         </div>
         <div className='contact-right-content'>
@@ -33,7 +33,7 @@ const Contact = () => {
               <input type="text" id="fname" name="fname" required />
             </div>
             <div className="contact-form-group">
-              <label htmlFor="fname">Last Name <span>*</span></label>
+              <label htmlFor="lname">Last Name <span>*</span></label>
               <input type="text" id="lname" name="lname" required />
             </div>
             <div className="contact-form-group">
