@@ -65,7 +65,7 @@ const Navbar = () => {
                 onClick={scrollContact}
                 to={''}
               >
-                <span><FaLocationDot /></span>402-428 Portage Avenue, <br/>Winnipeg, MB R3C 0E2 CA
+                <span><FaLocationDot /></span>402-428 Portage Avenue, <br/>Winnipeg, MB R3C 0E2 🇨🇦
               </NavLink>
             </div>
             <div className='navbar-section-contact-info'>
