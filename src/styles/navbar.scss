@@ -94,12 +94,12 @@
         display: flex;
         justify-content: center;
 
-        @include tablet-devices {
-            padding: 15px 0;
+        @include laptop-small-devices {
+            padding: 10px 0;
         }
 
         @include mobile-devices {
-            padding: 10px 0;
+            padding: 6px 0;
         }
 
         & > a {
