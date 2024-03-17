@@ -108,7 +108,7 @@
             }
 
             a {
-                color: $blueColor;
+                color: $textDarkColor;
                 text-decoration: none;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -125,7 +125,7 @@
             }
 
             a:hover {
-                color: $textDarkColor;
+                color: $textDarkColorHover;
             }
         }
     }
