@@ -1,0 +1,176 @@
+@import "media-queries.scss";
+@import "color.scss";
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: $textLightColor;
+    padding: 0 2%;
+
+    @include laptop-large-devices {
+        padding: 0 8%;
+    }
+
+    &-section {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+
+        @include tablet-devices {
+            flex-direction: column;
+        }
+    }
+
+    &-section-address {
+        width: 100%;
+        height: 100%;
+
+        @include tablet-devices {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: $textDarkColor;
+        }
+        
+        a:hover {
+            color: $blueColorHover;
+            text-decoration: underline;
+        }
+    
+        .location {
+
+            display: flex;
+            align-items: center;
+
+            span {
+                color: $blueColor;
+                font-size: 30px;
+                margin-right: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    &-section-address-tablet {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px 0;
+        display: none;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: $textDarkColor;
+        }
+        a:hover {
+            color: $blueColorHover;
+            text-decoration: underline;
+        }
+        a > span {
+            color: $blueColor;
+        }
+
+        @include tablet-devices {
+            display: block;
+        }
+    }
+
+    &-section-logo {
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        @include tablet-devices {
+            padding: 15px 0;
+        }
+
+        @include mobile-devices {
+            padding: 10px 0;
+        }
+
+        & > a {
+            cursor: pointer;
+        }
+
+        & a img {
+            width: 100%;
+            height: 60px;
+        }
+    }
+
+    &-section-contact {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @include tablet-devices {
+            margin-bottom: 10px;
+        }
+
+        @include mobile-devices {
+            display: none;
+        }
+    }
+
+    &-section-contact-info {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        @include tablet-devices {
+            width: 100%;
+        }
+
+        .contact-search {
+            height: 100%;
+            padding: 15px;
+            background-color: #C5C5C5;
+            color: $textLightColor;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .contact-phone {
+            width: 100%;
+            height: 100%;
+            background-color: $blueColor;
+            padding: 15px 10px;
+            color: $textLightColor;
+            text-decoration:  none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-appointment {
+            width: 100%;
+            height: 100%;
+            padding: 15px 10px;
+            background-color: $textDarkColor;
+            color: $textLightColor;
+            text-decoration:  none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+
+}

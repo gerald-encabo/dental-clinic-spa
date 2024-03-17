@@ -1,0 +1,52 @@
+@import "media-queries.scss";
+@import "color.scss";
+
+.content-c {
+    width: 100%;
+    height: auto;
+    background-color: $blueColor;
+    color: $textLightColor;
+
+    &-wrapper {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+
+        h2 {
+            margin-bottom: 1.25rem;
+            font-size: 30px;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 22px;
+            font-weight: 100;
+            max-width: 53.125rem;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            line-height: 1.3636363636;
+        }
+
+        a {
+            margin-top: 0.5625rem;
+            margin-bottom: 0;
+            border-radius: 500px;
+            padding: 0.59375rem 2.5rem;
+            border: 0.125rem solid $blackColor;
+            background: $blackColor;
+            color: $textLightColor;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a:hover {
+            border: 0.125rem solid $blackColorHover;
+            background: $blackColorHover;
+        }
+    }
+}

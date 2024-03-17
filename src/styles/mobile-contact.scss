@@ -1,0 +1,33 @@
+@import "media-queries.scss";
+@import "color.scss";
+
+.mobile-contact {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    @include mobile-devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile-contact-phone {
+        background-color: $blueColor;
+    }
+
+    #mobile-contact-mail {
+        background-color: $textDarkColorHover;
+    }
+
+    a {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $textLightColor;
+        font-size: 20px;
+    }
+}

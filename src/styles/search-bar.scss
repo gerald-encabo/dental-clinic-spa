@@ -1,0 +1,78 @@
+@import "media-queries.scss";
+@import "color.scss";
+
+.search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $textDarkColor;
+    color: $textLightColor;
+    width: 100%;
+    height: 25%;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-wrapper {
+        width: 90%;
+        padding: 0.625rem 10% 1.875rem;
+        z-index: 450;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+    }
+
+    #close-btn {
+        color: $textLightColor;
+        background-color: $textDarkColor;
+        outline: none;
+        border: 0;
+        font-size: 40px;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    input {
+        width: 90%;
+        background: #f7f7f7;
+        height: 3.125rem;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        padding: 0 3.4375rem 0 1.25rem !important;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    button {
+        width: 10%;
+        height: 3.125rem;
+        float: right;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        line-height: 3.125rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0;
+        color: $textLightColor;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: #C5C5C5;
+    }
+}
+
