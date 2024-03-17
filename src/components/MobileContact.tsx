@@ -57,7 +57,7 @@ const MobileContact = ({scrollContact}: any) => {
                             </NavLink>
                         </div>
                         <p className='mobile-contact-address'>        
-                            <span><FaLocationDot /></span> 402-428 Portage Avenue, Winnipeg, MB R3C 0E2 CA
+                            <span><FaLocationDot /></span> 402-428 Portage Avenue, Winnipeg, MB R3C 0E2
                         </p>
                     </>
                 )
