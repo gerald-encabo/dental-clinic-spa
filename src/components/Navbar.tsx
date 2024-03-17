@@ -40,7 +40,7 @@ const Navbar = () => {
             >
               <div className='location'>
                 <span><FaLocationDot /></span>
-                402-428 Portage Avenue, <br/>Winnipeg, MB R3C 0E2 CA
+                402-428 Portage Avenue, <br/>Winnipeg, MB R3C 0E2 🇨🇦
               </div>
             </NavLink>
         </div>
