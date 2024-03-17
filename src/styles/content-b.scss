@@ -86,14 +86,14 @@
             }
 
             h2 {
-                font-size: 30px;
+                font-size: 1.875rem;
                 line-height: 1.2647058824;
                 font-weight: 500;
             }
 
             ul {
                 list-style: none;
-                color: #a9a9a9;
+                //color: #a9a9a9;
                 font-weight: 300;
                 margin-bottom: 20px;
                 -webkit-columns: 2;
@@ -117,7 +117,7 @@
                 line-height: 1.2307692308;
                 transition: all 0.2s ease-out;
                 margin-top: 0.15625rem;
-                font-size: .875rem;
+                font-size: 1rem;
                 font-weight: 500;
                 line-height: 1.6428571429;
                 display: flex;
