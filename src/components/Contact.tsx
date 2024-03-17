@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='contact-left-content'>
           <h2>Conveniently Located in the Heart of Downtown Winnipeg</h2>
           <h3>Dr. Carmine Scarpino Dental is located in the Power Building at 428 Portage Ave.&nbsp;</h3>
-          <h5>HOURS</h5>
+          <h4>HOURS</h4>
           <div>
             <ul>
               <li><strong>Monday:</strong> <span>08:00 am - 04:30 pm</span></li>

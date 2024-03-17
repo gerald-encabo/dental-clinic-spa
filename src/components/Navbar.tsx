@@ -75,6 +75,7 @@ const Navbar = () => {
                   to={''}
                   onClick={() => setPopSearchBar(!popSearchBar)} 
                   className='contact-search'
+                  aria-label="This button will popup search bar"
                 >
                   <FaSearch />
                 </NavLink>
