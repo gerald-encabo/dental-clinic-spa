@@ -11,6 +11,29 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+
+    &-btn {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    &-address {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: $blackColor;
+        color: $textLightColor;
+        padding: 15px 0;
+        margin: 0;
+
+        span {
+            color: $blueColor;
+        }
     }
 
     #mobile-contact-phone {
@@ -19,6 +42,10 @@
 
     #mobile-contact-mail {
         background-color: $textDarkColorHover;
+    }
+
+    #mobile-scroll-btn {
+        background-color: $textDarkColor;
     }
 
     a {

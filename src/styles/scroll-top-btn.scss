@@ -10,8 +10,7 @@
     background-color: #C3C3C3;
 
     @include mobile-devices {
-        right: 8%;
-        bottom: 100px;
+        display: none;
     }
 
     & > a {
